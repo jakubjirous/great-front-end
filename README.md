@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## GreatFrontEnd Projects
 
-## Getting Started
+Welcome to my [GreatFrontEnd](https://www.greatfrontend.com/projects/u/jakubjirous) Projects showcase
 
-First, run the development server:
+I’ve been using the [GreatFrontEnd](https://www.greatfrontend.com/projects/u/jakubjirous) platform to tackle real-world front-end challenges, and here are the projects I’ve created as a result. Each project represents a unique challenge designed to refine my skills and showcase beautiful, modular designs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Projects:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Below is a list of the projects I’ve completed through the challenges. Each project includes a live demo link and a link to the challenge details on the platform.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### 1) Testimonial Card
 
-## Learn More
+<img src="https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/render/image/public/projects-images/testimonial-card/gallery/Desktop.jpg" alt="Testimonial Card" width="300" height="auto" />
 
-To learn more about Next.js, take a look at the following resources:
+- A simple user testimonial card with key testimonial elements
+    - [Challenge Details](https://www.greatfrontend.com/projects/challenges/testimonial-card)
+    - [Live Demo]()
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
