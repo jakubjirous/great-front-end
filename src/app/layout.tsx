@@ -4,22 +4,18 @@ import "./globals.css";
 import { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: `Projects | ${config.title}`,
-  description: config.description,
+	title: `Projects | ${config.title}`,
+	description: config.description,
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: ReactNode;
+	children: ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`antialiased`}>{children}</body>
+		</html>
+	);
 }
