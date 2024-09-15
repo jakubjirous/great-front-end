@@ -27,6 +27,9 @@ const config: Config = {
 			},
 		},
 		extend: {
+			fontFamily: {
+				noto: ["var(--font-noto)"],
+			},
 			colors: {
 				iron: {
 					50: "#f9fafa",
