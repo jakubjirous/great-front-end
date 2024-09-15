@@ -19,7 +19,7 @@ export default function TestimonialCard({
 	children?: ReactNode;
 }): ReactNode {
 	return (
-		<div className="w-[21.25rem] flex flex-col gap-4 bg-white p-6 rounded-lg shadow-card">
+		<div className="w-[21.25rem] flex flex-col gap-4 bg-white p-6 rounded-lg shadow-testimonial-card">
 			<div className="grid grid-cols-[3rem,1fr] items-center gap-4 self-stretch">
 				<div className="w-12 h-12 rounded-full overflow-clip">
 					<Image
