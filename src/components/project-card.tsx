@@ -49,7 +49,7 @@ export function ProjectCard({
 
 				<div className="px-5 py-4">
 					<h2 className="mb-3 text-lg font-semibold">{title}</h2>
-					<p className="m-0 max-w-[30ch] text-sm opacity-50">{description}</p>
+					<p className="m-0 text-sm opacity-50 text-pretty">{description}</p>
 				</div>
 			</div>
 		</Link>
