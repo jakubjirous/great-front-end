@@ -1,3 +1,4 @@
+import { sizes } from "@/utils/shared";
 import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,6 +43,7 @@ export function ProjectCard({
 					placeholder="blur"
 					src={src}
 					width={width}
+					sizes={sizes}
 					className="aspect-video group-hover:scale-110 transition-all duration-500"
 				/>
 
