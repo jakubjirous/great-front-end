@@ -5,9 +5,5 @@ export default function ProjectsLayout({
 }: Readonly<{
 	children: ReactNode;
 }>) {
-	return (
-		<main className="bg-gradient-to-b from-gray-50 to-iron-500">
-			{children}
-		</main>
-	);
+	return <main className="bg-custom-gradient">{children}</main>;
 }
