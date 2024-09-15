@@ -16,5 +16,5 @@ Below is a list of the projects I’ve completed through the challenges. Each pr
 
 - A simple user testimonial card with key testimonial elements
     - [Challenge Details](https://www.greatfrontend.com/projects/challenges/testimonial-card)
-    - [Live Demo]()
+    - [Live Demo](https://greatfrontend-jakubjirous.vercel.app/testimonial-card)
 
