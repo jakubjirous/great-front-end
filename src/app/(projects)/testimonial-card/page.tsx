@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function Page(): ReactNode {
 	return (
-		<section className="container h-dvh flex flex-col items-center py-[12.5rem]">
+		<section className="container h-dvh flex flex-col items-center pt-[12.5rem]">
 			<TestimonialCard
 				thumbnail={{
 					src: thumbnail,
