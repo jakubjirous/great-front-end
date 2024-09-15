@@ -25,9 +25,9 @@ export default function Page(): ReactNode {
 				title="Sarah Dole"
 				username="@sarahdole"
 			>
-				I&apos;ve been searching for high-quality abstract images for my design
-				projects, and I&apos;m thrilled to have found this platform. The variety
-				and depth of creativity are astounding!
+				I've been searching for high-quality abstract images for my design
+				projects, and I'm thrilled to have found this platform. The variety and
+				depth of creativity are astounding!
 			</TestimonialCard>
 		</section>
 	);
