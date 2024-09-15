@@ -1,6 +1,16 @@
-import { ProjectType } from "@/components/project-card";
+import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import blogCard from "../../public/assets/blog-card.webp";
 import testimonialCard from "../../public/assets/testimonial-card.webp";
+
+export interface ProjectType {
+	title: string;
+	description: string;
+	href: string;
+	thumbnail: {
+		src: string | StaticImport;
+		alt: string;
+	};
+}
 
 export const projects: ProjectType[] = [
 	{
@@ -11,8 +21,6 @@ export const projects: ProjectType[] = [
 		thumbnail: {
 			src: testimonialCard,
 			alt: "Testimonial Card",
-			width: 2061,
-			height: 1161,
 		},
 	},
 	{
@@ -23,8 +31,6 @@ export const projects: ProjectType[] = [
 		thumbnail: {
 			src: blogCard,
 			alt: "Blog Card",
-			width: 2250,
-			height: 1674,
 		},
 	},
 ];

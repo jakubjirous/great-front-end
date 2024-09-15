@@ -1,27 +1,15 @@
+import { ProjectType } from "@/data/projects";
 import { sizes } from "@/utils/shared";
-import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties, ReactNode } from "react";
-
-export interface ProjectType {
-	title: string;
-	description: string;
-	href: string;
-	thumbnail: {
-		src: string | StaticImport;
-		alt: string;
-		width: number;
-		height: number;
-	};
-}
 
 export function ProjectCard({
 	project: {
 		title,
 		description,
 		href,
-		thumbnail: { src, alt, width, height },
+		thumbnail: { src, alt },
 	},
 	className,
 	...rest
@@ -36,21 +24,20 @@ export function ProjectCard({
 			className={`group flex break-inside-avoid flex-col group rounded-lg border border-neutral-200 bg-neutral-100 transition-all duration-500 hover:border-neutral-400 overflow-clip ${className}`}
 			{...rest}
 		>
-			<div>
+			<figure className="relative h-50 aspect-video overflow-clip">
 				<Image
-					alt={alt}
-					height={height}
-					placeholder="blur"
 					src={src}
-					width={width}
+					alt={alt}
+					placeholder="blur"
 					sizes={sizes}
+					fill
 					className="aspect-video group-hover:scale-110 transition-all duration-500"
 				/>
+			</figure>
 
-				<div className="px-5 py-4">
-					<h2 className="mb-3 text-lg font-semibold">{title}</h2>
-					<p className="m-0 text-sm opacity-50 text-pretty">{description}</p>
-				</div>
+			<div className="px-5 py-4">
+				<h2 className="mb-3 text-lg font-semibold">{title}</h2>
+				<p className="m-0 text-sm opacity-50 text-pretty">{description}</p>
 			</div>
 		</Link>
 	);
