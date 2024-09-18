@@ -25,7 +25,7 @@ export default function BlogCard({
 		<article
 			role="article"
 			aria-labelledby="article-title"
-			className="w-[21.25rem] flex flex-col rounded-lg shadow-blog-card overflow-clip"
+			className="w-[21.25rem] flex flex-col rounded-lg shadow-card overflow-clip"
 		>
 			<figure className="relative h-72">
 				<Image src={src} alt={alt} fill placeholder="blur" sizes={sizes} />

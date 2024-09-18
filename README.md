@@ -18,3 +18,18 @@ Below is a list of the projects I’ve completed through the challenges. Each pr
     - [Challenge Details](https://www.greatfrontend.com/projects/challenges/testimonial-card)
     - [Live Demo](https://greatfrontend-jakubjirous.vercel.app/testimonial-card)
 
+#### 2) Blog Card
+
+<img src="https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/render/image/public/projects-images/blog-card/gallery/Desktop.jpg" alt="Blog Card" width="300" height="auto" />
+
+- A simple user testimonial card with key testimonial elements
+  - [Challenge Details](https://www.greatfrontend.com/projects/challenges/blog-card)
+  - [Live Demo](https://greatfrontend-jakubjirous.vercel.app/blog-card)
+  
+#### 3) Profile Card
+
+<img src="https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/render/image/public/projects-images/profile-card/cover.jpg" alt="Profile Card" width="300" height="auto" />
+
+- A simple profile card featuring a user's basic information and links to their social media profiles
+  - [Challenge Details](https://www.greatfrontend.com/projects/challenges/profile-card)
+  - [Live Demo](https://greatfrontend-jakubjirous.vercel.app/profile-card)'
