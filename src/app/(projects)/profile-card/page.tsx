@@ -41,7 +41,7 @@ const socials: SocialType[] = [
 
 export default function Page(): ReactNode {
 	return (
-		<section className="container h-dvh flex flex-col items-center pt-[7.5rem]">
+		<section className="container h-dvh flex flex-col items-center pt-[12.5rem]">
 			<ProfileCard
 				avatar={{
 					src: sarahDole,
