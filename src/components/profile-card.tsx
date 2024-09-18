@@ -1,12 +1,12 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import Link from "next/link";
-import React, { ReactNode } from "react";
+import React, { FC, ReactNode, SVGProps } from "react";
 
 export type SocialType = {
 	title: string;
 	href: string;
-	svg: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+	svg: FC<SVGProps<SVGElement>>;
 };
 
 export default function ProfileCard({

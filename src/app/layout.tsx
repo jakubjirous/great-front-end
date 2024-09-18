@@ -1,10 +1,8 @@
 import Footer from "@/components/footer";
 import { config } from "@/utils/config";
-import { footerLink } from "@/utils/shared";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Noto_Sans as NotoSans } from "next/font/google";
-import Link from "next/link";
 import { ReactNode } from "react";
 
 const noto = NotoSans({
